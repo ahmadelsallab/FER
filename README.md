@@ -5,7 +5,9 @@ This work is based on S. Zhang et al.: Learning Affective Video Features for FER
 
 # Features
 1- Replace DBN with normal Dense (Fully Connected) layers
+
 2- Use normal softmax with categorical cross entropy loss as the classification layer
+
 3- Smaller model
 
 __TBD__
