@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+
+
+{% block content %}
+
+
+
+  {% if uploaded_file_url %}
+	<video name='demo' controls autoplay width='50%' height='40%'>
+		<!--source src="{{media}}/{{uploaded_file_url}}" type="video/mp4"></source-->
+		<source src="{{uploaded_file_url}}" type="video/mp4"></source>
+	</video>
+    <!--p>File uploaded at: <a href="{{ uploaded_file_url }}">{{ uploaded_file_url }}</a></p-->
+	<p>File uploaded at: <a>{{ uploaded_file_url }}</a></p>
+  {% endif %}
+
+
+{% endblock %}
