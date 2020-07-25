@@ -3,3 +3,5 @@ moviepy==1.0.1
 tensorflow==2.1.0
 Django==3.0.4
 opencv_python==4.2.0.32
+
+sudo apt install python3-opencv
